@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	if orgList.length == 0
+		p Sorry, no orgs found. Please add
+	else
+		ul
+		each org in orgList
+			a(href='/org/#{org.rowid}')
+				li= org.name
+	a(href='/orgSetup') +

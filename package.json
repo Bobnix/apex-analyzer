@@ -6,11 +6,15 @@
   "dependencies": {
     "express": "~3.4.8",
     "logfmt": "~0.21.0",
-    "node-salesforce": "~0.8.0"
+    "node-salesforce": "~0.8.0",
+    "jade": "*",
+    "sqlite3": "~2.2.0",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
