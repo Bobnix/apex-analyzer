@@ -1,2 +1,2 @@
-apex-analyzer
+apex-analyzer (DEPRECATED)
 =============
